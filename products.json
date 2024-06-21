@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Cloud",
+      "price": 4.99,
+      "description": "Cloud shaped candle",
+      "image": "images/clouds.jpg",
+      "category": "kids"
+    },
+    {
+      "id": 2,
+      "name": "Teddy",
+      "price": 5.99,
+      "description": "Fun scented teddy bear",
+      "image": "images/teddy.jpg",
+      "category": "kids"
+    },
+    {
+      "id": 3,
+      "name": "Muffin",
+      "price": 4.99,
+      "description": "Colorful scented muffin candle",
+      "image": "images/muffin.jpg",
+      "category": "gifts"
+    },
+    {
+      "id": 4,
+      "name": "Rope Candle",
+      "price": 9.99,
+      "description": "Rope shaped scented candle",
+      "image": "images/rope.jpg",
+      "category": "gifts"
+    },
+    {
+      "id": 5,
+      "name": "Bubbles Candle",
+      "price": 4.99,
+      "description": "Bubbles scented candle",
+      "image": "images/bubbles.jpg",
+      "category": "gifts"
+    },
+    {
+      "id": 6,
+      "name": "Roses Candle Buquet",
+      "price": 9.99,
+      "description": "Buquet of roses",
+      "image": "images/roses.jpg",
+      "category": "spring"
+    },
+    {
+      "id": 7,
+      "name": "Butterfly Candles",
+      "price": 9.99,
+      "description": "Candles with Butterflies",
+      "image": "images/spring.jpg",
+      "category": "spring"
+    },
+    {
+      "id": 8,
+      "name": "Elegant",
+      "price": 6.99,
+      "description": "Elegant Candle Design",
+      "image": "images/elegant.jpg",
+      "category": "elegant"
+    },
+    {
+      "id": 9,
+      "name": "Elegant Twist",
+      "price": 6.99,
+      "description": "Twisted Candle Design",
+      "image": "images/elegant2.jpg",
+      "category": "elegant"
+    }
+  ]
+  
