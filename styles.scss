@@ -1,0 +1,239 @@
+$gradient: linear-gradient(to bottom, #926689, #74506d, #583b52, #3d2739, #241421);
+$light: #CECECE;
+$dark: #241421;
+
+
+html body {
+  background: $gradient;
+  color: $dark;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+//Navbar
+.navbar{
+  background-color: $dark;
+}
+.toggler{
+  color: $light;
+}
+.nav-link{
+  color: $light!important;
+}
+.navbar-brand{
+  width: 10%;
+}
+#navbar-placeholder {
+  height: 0;
+}
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*Main*/
+.main {
+  position: relative;
+  background: url("images/clouds.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 60%;
+  font-family: "Indie Flower", cursive;
+}
+.mainText {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.main-title {
+  font-size: 4.5em;
+  text-shadow: 4px 4px #000;
+}
+
+/*About Us*/
+.about-title{
+  padding-top: 2.5em;
+}
+.about-text {
+  font-size: 1em;
+  text-shadow: 0 0 1px;
+  text-align: center;
+  margin: 5%;
+}
+
+//Products
+.container{
+  padding-top: 5.5em;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $light;
+  color: $light;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .search-input {
+    width: 0;
+    padding: 0;
+    border: none;
+    visibility: hidden;
+    display: none;
+  }
+}
+.cart-container{
+  display: flex;
+  align-items: center;
+  padding: .5em 0;
+}
+
+#productCarousel {
+  margin-top: 2em;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carousel-item .card {
+  border: 1px solid white;
+  margin: 1em;
+  width: 75%;
+  height: 20em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.carousel-item .card img {
+  max-width: 100%;
+  width: 10em;
+  height: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #productCarousel{
+    margin: auto;
+  }
+
+  .carousel-item .row {
+    flex-direction: column;
+  }
+
+  .carousel-item .col-md-4 {
+    width: 100%;
+    padding-left: 15%;
+  }
+
+ 
+}
+
+/*Contacts*/
+.contacts{
+  margin-bottom: 2em;
+}
+.contact-sub {
+  color: $light;
+}
+
+.flip-card {
+  color: $light;
+  width: 300px;
+  height: 25em;
+  border: 1px solid $light;
+  perspective: 1000px;
+}
+
+a {
+  text-decoration: none !important;
+  color: $light !important;
+}
+
+a:hover {
+  text-shadow: 5px 2px 5px $light;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.contact-sub {
+  font-size: 1.5em;
+}
+
+.contact-text,.text-center{
+  color: $light;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  color: $light;
+  transform: rotateY(180deg);
+}
+
+.card-text {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+.form-container input,
+textarea {
+  background-color: transparent;
+  color: $light;
+  outline: $light;
+  border: 1px solid $light;
+}
+input::placeholder, textarea::placeholder{
+  color: #b0aeae;
+}
+
+/*Footer*/
+footer{
+  height: 2.5em;
+  background-color: #241421;
+  border-top: 1px solid $light;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a{
+  text-decoration: none;
+  color: $light;
+}
