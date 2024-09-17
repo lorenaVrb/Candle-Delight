@@ -18,9 +18,7 @@
   }
   footer ul {
     display: inline;
-  }
-  footer a {
-    margin: 0 1em;
+    text-align: center;
   }
 }
 html body {
