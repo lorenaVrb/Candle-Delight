@@ -137,7 +137,7 @@ window.addEventListener("load", function () {
               '<h5 class="product-title">' + product.name + '</h5>' +
               '<p class="product-text">' + product.description + '</p>' +
               '<p class="product-text">Price: $' + product.price + '</p>' +
-              '<button class="btn btn-primary add-to-cart-btn" data-id="' + product.id + '">Add to Cart</button>' +
+              '<button class="btn btn-dark add-to-cart-btn" data-id="' + product.id + '">Add to Cart</button>' +
             '</div>' +
           '</div>';
         row.appendChild(col);

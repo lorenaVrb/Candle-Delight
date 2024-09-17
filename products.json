@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Muffin",
       "price": 4.99,
-      "description": "Colorful scented muffin candle",
+      "description": "Colorful scented muffin",
       "image": "images/muffin.jpg",
       "category": "gifts"
     },

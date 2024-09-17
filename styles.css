@@ -1,3 +1,28 @@
+@media (max-width: 768px) {
+  .search-input {
+    width: 0;
+    padding: 0;
+    border: none;
+    visibility: hidden;
+    display: none;
+  }
+  #productCarousel {
+    margin: auto;
+  }
+  .carousel-item .row {
+    flex-direction: column;
+  }
+  .carousel-item .col-md-4 {
+    width: 100%;
+    padding-left: 15%;
+  }
+  footer ul {
+    display: inline;
+  }
+  footer a {
+    margin: 0 1em;
+  }
+}
 html body {
   background: linear-gradient(to bottom, #926689, #74506d, #583b52, #3d2739, #241421);
   color: #241421;
@@ -93,15 +118,6 @@ nav {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .search-input {
-    width: 0;
-    padding: 0;
-    border: none;
-    visibility: hidden;
-    display: none;
-  }
-}
 .cart-container {
   display: flex;
   align-items: center;
@@ -121,7 +137,7 @@ nav {
   border: 1px solid white;
   margin: 1em;
   width: 75%;
-  height: 20em;
+  height: 22em;
   text-align: center;
   box-sizing: border-box;
 }
@@ -134,18 +150,28 @@ nav {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  #productCarousel {
-    margin: auto;
-  }
-  .carousel-item .row {
-    flex-direction: column;
-  }
-  .carousel-item .col-md-4 {
-    width: 100%;
-    padding-left: 15%;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
 }
+
+.product-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-body h5 {
+  flex-grow: 1;
+}
+
+.product-body .product-text {
+  margin-bottom: 1em;
+}
+
 /*Contacts*/
 .contacts {
   margin-bottom: 2em;
@@ -209,7 +235,7 @@ a:hover {
 .card-text {
   position: absolute;
   top: 35%;
-  left: 30%;
+  left: 25%;
 }
 
 .form-container input,
@@ -230,7 +256,6 @@ input::placeholder, textarea::placeholder {
 
 /*Footer*/
 footer {
-  height: 2.5em;
   background-color: #241421;
   border-top: 1px solid #CECECE;
 }
