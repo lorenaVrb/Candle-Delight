@@ -94,7 +94,7 @@ h2 {
   margin: 5%;
 }
 
-.container {
+#shop {
   padding-top: 5.5em;
 }
 
@@ -256,6 +256,7 @@ input::placeholder, textarea::placeholder {
 footer {
   background-color: #241421;
   border-top: 1px solid #CECECE;
+  width: 100vw;
 }
 
 footer ul {
