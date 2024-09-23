@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Fetch Products from JSON
   function fetchProducts() {
-      fetch('./path-to-json-file/products.json') // Adjust the path as needed
+      fetch('products.json') // Adjust the path as needed
           .then(response => {
               if (!response.ok) {
                   throw new Error('Network response was not ok');
